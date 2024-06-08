@@ -12,7 +12,12 @@ $$f'(x) = \frac{dy}{dx} = \lim_{\Delta{x->0}} \frac{f(x+\Delta x) - f(x)}{\Delta
 
 
 # Lograit and Exponenial function
+$$f(x) = log(x)$$
+$$f(x) = e^{x}$$
 
+<img  width="100%" style="display: block; margin: 0; align: center">
+    <img width="33%" src="image-1.png">
+</img>
 
 
 # PI Estimation Calculation
@@ -30,6 +35,5 @@ $$x_{0} = a /2 $$
 $$x_{n+1} = \frac{x_{n} + \frac{a}{x_n{}}}{2}$$
 $$n = n=1$$
 
-# PI Estimation Calculation 
-
-$$PI = $$
+## How to alignment content in the markdown
+[Link](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-file-on-github)
