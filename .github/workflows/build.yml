@@ -20,5 +20,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       - name: Setup Node.js
         uses: actions/checkout@v3
-        width : 
+        with : 
           node-version : '20'
