@@ -19,6 +19,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       - name: Setup Node.js
-        user: actions/checkout@v3
+        uses: actions/checkout@v3
         width : 
           node-version : '20'
