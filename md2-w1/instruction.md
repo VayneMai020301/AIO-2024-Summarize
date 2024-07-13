@@ -144,10 +144,8 @@ def position_encoding(max_len =5000, embedd_dim = 512):
     position = np.arange(0, max_len, dtype=np.float32).reshape(max_len,-1)
     even_postion =  np.tile(np.arange(0, embedd_dim, 2), (max_len, 1))
     odd_postion =  np.tile(np.arange(1, embedd_dim, 2), (max_len, 1))
-
     term_div_sin = np.sin(position / (np.power(10000,even_postion / embedd_dim)))
     term_div_cos = np.cos(position / (np.power(10000,odd_postion / embedd_dim)))
-
     pe[:, 0::2] =  term_div_sin
     pe[:, 1::2] =  term_div_cos
 
