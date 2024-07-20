@@ -1,39 +1,36 @@
 
 # Summarization all of knowledge in week1 module 1
 
-1. Derivative Fomular and Applications
-2. Logarit and Exponential function
-3. Quadraric root calculation 
-4. PI Estimation calculation 
+| Module    | Content         | Link Git                                  |
+|-----------|-----------------|-------------------------------------------|
+| Module 1  | PI Estimation    | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_1/week1) |
+|           | Circle's Area Estimation   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_1/week1) |
+|           | Approximately quadratic root    | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_1/week1) |
+|           | Optimize quadratic using Binary-Search Tree  | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_1/week2) |
+|           | Derivative Center and Derivative One-Side   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_1/week3) |
+|           | Apply integration to calculate the perimeter of ​​a circle   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_1/week2) |
+|           | Apply integration to calculate the area of ​​a circle   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_1/week3) |
+|           | Solution of quadratic equation  | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_1/week3) |
+|           | Binary-Search Tree and AVL (Balanced Binary-Search Tree)   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_1/week4) |
+|||
+|||
+| Module 2  | Position Encoding    | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week1/positional_ecoding) |
+|           | IOU-Calculation    | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week1/non-max-suppression) |
+|           | Non-max Suppression Algorithm    | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week1/non-max-suppression) |
+|           | Gaussian Filter     | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
+|           | Term Frequency and Inver-Document Frequency    | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
+|           | Einstein Summation and Application | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
+|||
+# Noted (Markdown)
 
-
-# Derivative Fomular and Applications
-$$f'(x) = \frac{dy}{dx} = \lim_{\Delta{x->0}} \frac{f(x+\Delta x) - f(x)}{\Delta x}$$
-
-
-# Lograit and Exponenial function
-$$f(x) = log(x)$$
-$$f(x) = e^{x}$$
-
-<img  width="100%" style="display: block; margin: 0; align: center">
-    <img width="33%" src="image-1.png">
-</img>
-
-
-# PI Estimation Calculation
-1 . Monte Carlo Method 
-$$\pi = \frac{s^2 * N_{c}} {N_{s}}$$
-
-1 . Gregory-Leibniz Series 
-$$\pi = 4 * \sum_{i=1}^{n}\frac{(-1)^{i+1}}{2i -1}$$
-
-1 . Nilakantha Series 
-$$\pi =  3 + 4 * \sum_{i=0}^{n}\frac{(-1)^i}{(2i + 2)(2i+3)(2i+4)}$$
-
-# Quadraric root Calculation 
-$$x_{0} = a /2 $$ 
-$$x_{n+1} = \frac{x_{n} + \frac{a}{x_n{}}}{2}$$
-$$n = n=1$$
-
-## How to alignment content in the markdown
-[Link](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-file-on-github)
+| Module    | Content         | Link Markdown                                 |
+|-----------|-----------------|-------------------------------------------|
+| Module 1  | Apply Binary Search    | [GitHub Link ]() |
+|           | Description 2   | [GitHub Link ]() |
+|           | Apply integration to calculate the perimeter of ​​a circle   | [GitHub Link ]() |
+|           | Apply integration to calculate the area of ​​a circle   | [GitHub Link ]() |
+|           | Derivative Center and Derivative One-Side   | [GitHub Link ]() |
+| Module 2  | Description 1   | [GitHub Link ]() |
+|           | Position Encoding and 2   | [GitHub Link ]() |
+|           | IOU-Calculation   | [GitHub Link ]() |
+|           | Einstein Summation and Application   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week2/einstein.md) |
