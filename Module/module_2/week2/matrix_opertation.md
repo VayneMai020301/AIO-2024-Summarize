@@ -22,11 +22,13 @@ def compute_length_vector(vector):
 ## Dot Product between two vector 
 
 $$
-\text{Vector: }\space v= \begin{bmatrix} v_1 \\\ v_2 \\\ ... \\\ v_n \end{bmatrix} u = \begin{bmatrix} u_1 \\\ u_2 \\\ ... \\\ u_n \end{bmatrix} 
+\text{Vector: } \quad v = \begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix}, \quad u = \begin{bmatrix} u_1 \\ u_2 \\ \vdots \\ u_n \end{bmatrix}
 $$
+
 $$
-\text{Dot Product: } v.u = v_1*u_1 + v_1*u_1 + ... + v_n*u_n = \sum_{i=0}^{n}(v_i*v_i)
+\text{Dot Product: } \quad v \cdot u = v_1 u_1 + v_2 u_2 + \cdots + v_n u_n = \sum_{i=1}^{n} v_i u_i
 $$
+
 
 ```markdown
 >>> a = np.array([2,3,4])
@@ -43,50 +45,75 @@ def compute_dot_vector(vector1, vector2):
 56
 ```
 
-## Multiplyin a vector by a matrix
+## Multiplying a Vector by a Matrix
 
 $$
-\text{Matrix A: } = \space \begin{bmatrix} a_{11} \space ... \space a_{1n} \\\ ... \space ... \space ...\\\ a_{m1} \space ... \space a_{mn} \end{bmatrix}, A \epsilon R^{m*n} 
+\text{Matrix } A = \begin{bmatrix} 
+a_{11} & \cdots & a_{1n} \\ 
+\vdots & \ddots & \vdots \\ 
+a_{m1} & \cdots & a_{mn} 
+\end{bmatrix}, \quad A \in \mathbb{R}^{m \times n}
 $$
 
 $$
-\text{Vector: }\space v= \begin{bmatrix} v_1 \\\ v_2 \\\ ... \\\ v_n \end{bmatrix},v \epsilon R^{n}
+\text{Vector: } \quad v = \begin{bmatrix} 
+v_1 \\ 
+v_2 \\ 
+\vdots \\ 
+v_n 
+\end{bmatrix}, \quad v \in \mathbb{R}^{n}
 $$
+
 $$
-c =Av = \space \begin{bmatrix} a_{11}*v_1 + \space ... \space a_{1n}*n_n \\\ ... \space ... \space ...\\\ a_{m1}*v_1 + \space ... \space a_{mn}* v_n \end{bmatrix} 
+c = Av = \begin{bmatrix} 
+a_{11}v_1 + \cdots + a_{1n}v_n \\ 
+\vdots \\ 
+a_{m1}v_1 + \cdots + a_{mn}v_n 
+\end{bmatrix}
 $$
+
 ## Matrix Inverse
 
 $$
-\text{Matrix A: }\bold A \space =  \begin{bmatrix} a \space b \\\ c\space d \end{bmatrix}, \bold A \epsilon R^{2*2}
+\text{Matrix } \mathbf{A} = \begin{bmatrix} 
+a & b \\ 
+c & d 
+\end{bmatrix}, \quad \mathbf{A} \in \mathbb{R}^{2 \times 2}
 $$
+
 $$
-\text{Determinant of } \bold A \epsilon R^{2*2} : det(\bold A) = ad - bc
+\text{Determinant of } \mathbf{A} \in \mathbb{R}^{2 \times 2} : \det(\mathbf{A}) = ad - bc
 $$
+
 $$
-\text{if} \space det(A) != 0 \space \text{ A is invertible}
+\text{if } \det(\mathbf{A}) \neq 0 \text{, A is invertible}
 $$
+
 $$
-\text{Inverse Matrix A: } A^{-1} \space  = \space \frac{1}{det(A)} \begin{bmatrix} d \space -b \\\ -c \space a \end{bmatrix}
+\text{Inverse Matrix } \mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})} \begin{bmatrix} 
+d & -b \\ 
+-c & a 
+\end{bmatrix}
 $$
 
 ## Eigenvalue and Eigenvector 
 
 $$
-\bold A \epsilon R^{n*n}, \bold I \text{ (identitty matrix) } \epsilon R^{n*n}, v \epsilon R^{n}
+\mathbf{A} \in \mathbb{R}^{n \times n}, \quad \mathbf{I} \text{ (identity matrix) } \in \mathbb{R}^{n \times n}, \quad v \in \mathbb{R}^{n}
 $$
 
 $$
-Eigenvalue \space (\lambda): det (\bold A - \lambda \bold I) = 0
+\text{Eigenvalue } (\lambda): \det (\mathbf{A} - \lambda \mathbf{I}) = 0
 $$
 
 $$
-Eigenvector \space (v): \space \bold Av = \lambda v <=> (\bold A- \lambda \bold I)v = 0
+\text{Eigenvector } (v): \quad \mathbf{A}v = \lambda v \iff (\mathbf{A} - \lambda \mathbf{I})v = 0
 $$
 
 $$
-Normalize \space vector: \space \frac{v}{||v||}, v_i\space = \space \frac{v_{i}}{\sqrt{\sum_{1}^{n}v_{i}^2}}
+\text{Normalize vector: } \frac{v}{||v||}, \quad v_i = \frac{v_{i}}{\sqrt{\sum_{i=1}^{n}v_{i}^2}}
 $$
+
 
 ```python 
 import numpy as np
