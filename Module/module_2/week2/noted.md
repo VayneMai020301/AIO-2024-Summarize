@@ -1,5 +1,5 @@
 # Gaussian Filter 
-$$ G(x,y) = \frac{1}{2*\Pi *\sigma^2} * exp (-\frac{x^2+y^2}{2*\sigma^2}) $$
+$$G(x,y) = \frac{1}{2*\Pi *\sigma^2} * exp (-\frac{x^2+y^2}{2*\sigma^2})$$
 
 # Term-Frequency, Invert-Document-Frequency, TF-IDF
 #### Term-Frequency
@@ -69,23 +69,21 @@ $$ A * B = \sum_{i,j,k} A_{ij} * B_{jk} -> A*B = \text{np.einstein}('ij,jk',A,B)
 
 ### Multiplying Tensor(3-Dimention) and Vector (Convert RGB space to Grey Scale)
 
-$$A = \begin{bmatrix} \begin{bmatrix} r_{11} \space r_{12} \\\ r_{21} \space r_{22} \end{bmatrix}, \\\ \space\\\
+$$ A = \begin{bmatrix} \begin{bmatrix} r_{11} \space r_{12} \\\ r_{21} \space r_{22} \end{bmatrix}, \\\ \space\\\
     \begin{bmatrix} g_{11} \space g_{12} \\\ g_{21} \space g_{22}  \end{bmatrix}, \\\ \space \\\
     \begin{bmatrix} b_{11} \space b_{12} \\\ b_{21} \space b_{22} \end{bmatrix} \end{bmatrix} , A \epsilon R^{c,m,n} $$ 
 
 $$ \vec{u} = \begin{pmatrix} u_1 \\\ u_2 \\\ u_3 \end{pmatrix} $$
 
-$$ A* \vec{u} = \begin{bmatrix} r_{11} * u_1 + g_{11}*u_2 + b_{11}*u_3 \space \space \space \space r_{12} * u_1 + g_{12}*u_2 + b_{12}*u_3 \\\
-r_{21} * u_1 + g_{21}*u_2 + b_{21}*u_3  \space \space \space \space r_{22} * u_1 + g_{22}*u_2 + b_{22}*u_3 \end{bmatrix}
--> A* \vec{u} = \text{np.einstein}('kij,k',A,\vec{u}) $$
+$$ A* \vec{u} = \begin{bmatrix} r_{11} * u_1 + g_{11}*u_2 + b_{11}*u_3 \space \space \space \space r_{12} * u_1 + g_{12}*u_2 + b_{12}*u_3 \\\ r_{21} * u_1 + g_{21}*u_2 + b_{21}*u_3  \space \space \space \space r_{22} * u_1 + g_{22}*u_2 + b_{22}*u_3 \end{bmatrix} -> A* \vec{u} = \text{np einstein}('kij,k',A,\vec{u}) $$
 
 
 ### Multiplying Tensor(3-Dimention) and Tensor (3_Dimetion)
-$$ A = \begin{bmatrix} \begin{bmatrix} x_{11} \space x_{12} \\\ x_{21} \space x_{22} \end{bmatrix}, \\\ \space\\\
+$$ A = \begin{bmatrix} \begin{bmatrix} x_{11} \space x_{12} \\\ x_{21} \space x_{22} \end{bmatrix}, \\\ \space \\\
     \begin{bmatrix} y_{11} \space y_{12} \\\ y_{21} \space y_{22}  \end{bmatrix}, \\\ \space \\\
     \begin{bmatrix} z_{11} \space z_{12} \\\ z_{21} \space z_{22} \end{bmatrix} \end{bmatrix} , A \epsilon R^{c,m,n} , \space
 
-B = \begin{bmatrix} \begin{bmatrix} a_{11} \space a_{12} \space a_{13} \\\ a_{21} \space a_{22} \space a_{23} \end{bmatrix}, \\\ \space\\\
+B = \begin{bmatrix} \begin{bmatrix} a_{11} \space a_{12} \space a_{13} \\\ a_{21} \space a_{22} \space a_{23} \end{bmatrix}, \\\ \space \\\
 \begin{bmatrix} b_{11} \space b_{12} \space b_{13}  \\\ b_{21} \space b_{22} \space b_{23}  \end{bmatrix}, \\\ \space \\\
 \begin{bmatrix} c_{11} \space c_{12} \space c_{13} \\\ c_{21} \space c_{22} \space c_{23} \end{bmatrix} \end{bmatrix} , B \epsilon R^{c,n,k} $$ 
 
