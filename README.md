@@ -33,6 +33,5 @@
 | Module 2  | Description 1   | [GitHub Link ]() |
 |           | Position Encoding and 2   | [GitHub Link ]() |
 |           | IOU-Calculation   | [GitHub Link ]() |
-|           | Einstein Summation and Application   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/
-Module/module_2/week2/einstein.md) |
-|           | Dot Product (Vector, Matrix)   | [GitHub Link ]() |
+|           | Einstein Summation and Application   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md2w2/Module/module_2/week2/noted.md) |
+|           | Dot Product (Vector, Matrix)   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md2w2/Module/module_2/week2/matrix_opertation.md) |
