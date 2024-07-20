@@ -1,5 +1,5 @@
 
-# Summarization all of knowledge in week1 module 1
+# Summarization all of knowledge in AIO-2024
 
 | Module    | Content         | Link Git                                  |
 |-----------|-----------------|-------------------------------------------|
