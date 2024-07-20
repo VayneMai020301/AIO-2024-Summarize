@@ -1,5 +1,5 @@
 # Gaussian Filter 
-$$G(x,y) = \frac{1}{2*\Pi *\sigma^2} * exp (-\frac{x^2+y^2}{2*\sigma^2})$$
+$$G(x,y)=\frac{1}{2\pi\sigma^2}e^{-\frac{x^2+y^2}{2\sigma^2}}$$
 
 # Term-Frequency, Invert-Document-Frequency, TF-IDF
 #### Term-Frequency
@@ -79,13 +79,13 @@ $$ A* \vec{u} = \begin{bmatrix} r_{11} * u_1 + g_{11}*u_2 + b_{11}*u_3 \space r_
 
 
 ### Multiplying Tensor(3-Dimention) and Tensor (3_Dimetion)
-$$ A = \begin{bmatrix} \begin{bmatrix} x_{11} \space x_{12} \\\ x_{21} \space x_{22} \end{bmatrix}, \\\ 
-    \begin{bmatrix} y_{11} \space y_{12} \\\ y_{21} \space y_{22}  \end{bmatrix}, \\\ 
+$$ A = \begin{bmatrix} \begin{bmatrix} x_{11} \space x_{12} \\\ x_{21} \space x_{22} \end{bmatrix} \\\ 
+    \begin{bmatrix} y_{11} \space y_{12} \\\ y_{21} \space y_{22}  \end{bmatrix} \\\ 
     \begin{bmatrix} z_{11} \space z_{12} \\\ z_{21} \space z_{22} \end{bmatrix} \end{bmatrix} , A \epsilon R^{c,m,n} , \space
 
-B = \begin{bmatrix} \begin{bmatrix} a_{11} \space a_{12} \space a_{13} \\\ a_{21} \space a_{22} \space a_{23} \end{bmatrix},  \\\
-\begin{bmatrix} b_{11} \space b_{12} \space b_{13}  \\\ b_{21} \space b_{22} \space b_{23}  \end{bmatrix},  \\\
-\begin{bmatrix} c_{11} \space c_{12} \space c_{13} \\\ c_{21} \space c_{22} \space c_{23} \end{bmatrix} \end{bmatrix} , B \epsilon R^{c,n,k} $$ 
+B = \begin{bmatrix} \begin{bmatrix} a_{11} \space a_{12} \space a_{13} \\\ a_{21} \space a_{22} \space a_{23} \end{bmatrix}  \\\
+\begin{bmatrix} b_{11} \space b_{12} \space b_{13}  \\\ b_{21} \space b_{22} \space b_{23}  \end{bmatrix}  \\\
+\begin{bmatrix} c_{11} \space c_{12} \space c_{13} \\\ c_{21} \space c_{22} \space c_{23} \end{bmatrix} \end{bmatrix}  B \epsilon R^{c,n,k} $$ 
 
 $$ A*B = \text{np.einstein}('kij,kjl', A,B) $$
 
