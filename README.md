@@ -20,7 +20,7 @@
 |           | Gaussian Filter     | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
 |           | Term Frequency and Inver-Document Frequency    | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
 |           | Einstein Summation and Application | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
-|||
+|           | Using Navie Bayes for play tennis classification| [Github Link](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week3)|
 # Noted (Markdown)
 
 | Module    | Content         | Link Markdown                                 |
@@ -34,3 +34,4 @@
 |           | Position Encoding and 2   | [GitHub Link ]() |
 |           | IOU-Calculation   | [GitHub Link ]() |
 |           | Einstein Summation and Application   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week2/einstein.md) |
+|           | Using Navie Bayes for play tennis classification| [Github Link](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week3/navie_bayes.md)|
