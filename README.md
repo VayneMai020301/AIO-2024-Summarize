@@ -20,7 +20,7 @@
 |           | Gaussian Filter     | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
 |           | Term Frequency and Inver-Document Frequency    | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
 |           | Einstein Summation and Application | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
-|||
+|           | Using Navie Bayes for play tennis classification| [Github Link](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week3)|
 # Noted (Markdown)
 
 | Module    | Content         | Link Markdown                                 |
@@ -31,6 +31,8 @@
 |           | Apply integration to calculate the area of ​​a circle   | [GitHub Link ]() |
 |           | Derivative Center and Derivative One-Side   | [GitHub Link ]() |
 | Module 2  | Description 1   | [GitHub Link ]() |
-|           | Position Encoding and 2   | [GitHub Link ]() |
+|           | Position Encoding and 2   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md2w2/Module/module_2/week1/positional_ecoding/instruction.md) |
 |           | IOU-Calculation   | [GitHub Link ]() |
 |           | Einstein Summation and Application   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week2/einstein.md) |
+|           | Dot Product (Vector, Matrix)   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md2w2/Module/module_2/week2/matrix_opertation.md) |
+|           | Using Navie Bayes for play tennis classification| [Github Link](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week3/navie_bayes.md)|
