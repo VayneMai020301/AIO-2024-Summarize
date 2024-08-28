@@ -21,6 +21,10 @@
 |           | Term Frequency and Inver-Document Frequency    | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
 |           | Einstein Summation and Application | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/tree/main/Module/module_2/week2) |
 |           | Using Navie Bayes for play tennis classification| [Github Link](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week3)|
+|||
+|||
+| Module 3  | KNN Algorithm   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1) |
+
 # Noted (Markdown)
 
 | Module    | Content         | Link Markdown                                 |
