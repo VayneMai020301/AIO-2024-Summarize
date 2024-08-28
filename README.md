@@ -23,7 +23,9 @@
 |           | Using Navie Bayes for play tennis classification| [Github Link](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week3)|
 |||
 |||
-| Module 3  | KNN Algorithm   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1) |
+| Module 3  | KNN Algorithm   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1/knn) |
+|           | KMean Algorithm   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1/kmean) |
+
 
 # Noted (Markdown)
 
@@ -40,5 +42,7 @@
 |           | Einstein Summation and Application   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week2/einstein.md) |
 |           | Dot Product (Vector, Matrix)   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md2w2/Module/module_2/week2/matrix_opertation.md) |
 |           | Using Navie Bayes for play tennis classification| [Github Link](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week3/navie_bayes.md)|
-| Module 3  | KNN Algorithm   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1/knn_anotation.md) |
+| Module 3  | KNN Algorithm   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1/knn/knn_anotation.md) |
+|           | KMean Clustering Algorithm   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1/kmean/knn_anotation.md) |
+
 
