@@ -23,7 +23,9 @@
 |           | Using Navie Bayes for play tennis classification| [Github Link](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/main/Module/module_2/week3)|
 |||
 |||
-| Module 3  | KNN Algorithm   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1/knn) |
+| Module 3  | KNN Algorithm   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1/knn/knn_alogorithm.ipynb) |
+|           | KNN (Accuracy, Precision, Recall, F1-Score) | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1/knn/knn_alogorithm.ipynb)|
+|           | KNN (Cross Validation) | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1/knn/knn_alogorithm_crossvalidation.ipynb)|
 |           | KMean Algorithm   | [GitHub Link ](https://github.com/VayneMai020301/AIO-2024-Summarize/blob/md3w1/Module/module_3/week1/kmean) |
 
 
